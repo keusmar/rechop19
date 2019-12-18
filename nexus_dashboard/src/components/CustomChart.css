@@ -1,0 +1,71 @@
+.custom-chart {
+    background-color: white;
+    width: fit-content;
+    max-width: 500px;
+    height: fit-content;
+    /* min-width: 300px;
+    min-height: 300px; */
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px 2px #ccc;	
+    margin: 10px;
+}
+
+.custom-chart .title {
+    font-weight: lighter;
+    color: rgb(137, 138, 139);
+    margin-top: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.custom-chart .content {
+    margin-top: 50px;
+    border-collapse: collapse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.custom-chart .content tr td:nth-child(1) {
+    padding-right: 10px;
+}
+
+.custom-chart .content td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.custom-chart .content tr td:nth-child(2) {
+    width: 100%;
+    background: repeating-linear-gradient(
+      to right,
+      #ddd,
+      #ddd 1px,
+      #fff 1px,
+      #fff 5%
+    );
+}
+.custom-chart .portion {
+    background-color: darkblue;
+    height: 10px;
+    text-decoration: none;
+    transition: background-color .3s ease;
+    box-shadow: 2px 2px 2px 1px #ccc;
+}
+.custom-chart .portion:hover {
+    background-color: #aaa; 
+}
+.custom-chart .portion-10 {
+    width: 10%;
+}
+.custom-chart .portion-20 {
+    width: 20%;
+}
+.custom-chart .portion-30 {
+    width: 30%;
+}
+.custom-chart .portion-40 {
+    width: 40%;
+}
+.custom-chart .portion-50 {
+    width: 50%;
+}

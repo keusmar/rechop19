@@ -1,0 +1,16 @@
+.floating-box {
+    background-color: white;
+    min-width: 100px;
+    min-height: 100px;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px 2px #ccc;	
+}
+
+.floating-box .title {
+    font-weight: lighter;
+    color: rgb(137, 138, 139);
+    position: absolute;
+    top: 0;
+}
